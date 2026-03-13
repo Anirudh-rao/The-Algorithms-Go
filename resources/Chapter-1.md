@@ -22,3 +22,18 @@ The classification of data structure is as follows:
 | Queues   |
 | Stacks   |
 | Heaps    |
+
+
+### 1. Lists:
+
+Lists is the sequence of elements. Each element can be connected with another with a link  in the forward or backward direction.This data structure is a basic type of container. List have variable length and eveloper can remove and add elements more easily than an array.
+
+
+### 2. Tuples
+
+A Tuple is a finite sorted list of elements. Its is a data structure that groups data. Tuples are typically immutable collections.The element has related fields of different data types.The only modify a tuple is to change the fields.Operaters like `+` and `*` can be applied to tuples. A database record is refered to as a tuple.
+
+
+### 3. Heaps
+
+A Heap is a data structure that is based on the heap property. The heap data structure is used in selection, graph, and k-way merge algorithms. Operations such as finding , merging,insertion, key changes and deleting are performed on heaps. According to the heap order (maximum heap) property, the value stored at each node is greater than or equal to its children.
