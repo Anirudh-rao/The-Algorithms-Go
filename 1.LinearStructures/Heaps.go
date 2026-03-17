@@ -16,8 +16,7 @@ func (iheap IntegerHeap) Less(i, j int) bool { return iheap[i] < iheap[j] }
 
 // IntegerHeap method -swaps the element of i to j index
 func (iheap IntegerHeap) Swap(i, j int) {
-	iheap[i], iheap[j] = iheap[j],
-		iheap[i]
+	iheap[i], iheap[j] = iheap[j], iheap[i]
 }
 
 // IntegerHeap method -pushes the item

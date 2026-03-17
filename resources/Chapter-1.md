@@ -37,3 +37,11 @@ A Tuple is a finite sorted list of elements. Its is a data structure that groups
 ### 3. Heaps
 
 A Heap is a data structure that is based on the heap property. The heap data structure is used in selection, graph, and k-way merge algorithms. Operations such as finding , merging,insertion, key changes and deleting are performed on heaps. According to the heap order (maximum heap) property, the value stored at each node is greater than or equal to its children.
+
+## Structural design patterns:
+
+Structural design patterns describe the relationship between entities. They are used to form large structures using classes and objects. These patterns are used to create a system with different  system blocks in a flexible manner. Adapter, Bridge, Composite ,Decorator , facade , flyweight, private class data and proxy are the **Gang Of Four(GoF)** structural design patterns. 
+
+### Adapter
+
+
