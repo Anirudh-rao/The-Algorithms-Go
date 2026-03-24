@@ -44,4 +44,4 @@ Structural design patterns describe the relationship between entities. They are 
 
 ### Adapter
 
-
+The Adapter pattern provides a wrapper with an interface required by the API client to link incompatible types and act as a trasnaltor between the two types.
