@@ -44,4 +44,14 @@ Structural design patterns describe the relationship between entities. They are 
 
 ### Adapter
 
-The Adapter pattern provides a wrapper with an interface required by the API client to link incompatible types and act as a trasnaltor between the two types.
+The Adapter pattern provides a wrapper with an interface required by the API client to link incompatible types and act as a trasnaltor between the two types.The adapter use the change there are scenarios where class functionality needs to be changed bceause of incompatible interfaces.
+
+The dependency inversion principle can be adhered to by using the adapeter pattern when a class degines it own interfaces to the next level module interface implemented by and adapter class.
+
+The adapter pattern comprises the target, adaptee, adapter and client:
+
+1. `Target` is the interfaces that the client class and invokes methods on the datapter and adaptee.
+
+2. `Client` wants the incompatible inteface implementd by the adapter.
+
+3. `adapter` translated the incompatible ingerfaced of the dataptee into a interface that the cleitn wants.

@@ -1,4 +1,4 @@
-package main
+package linearstructures
 
 import (
 	"container/heap"
@@ -35,7 +35,7 @@ func (iheap *IntegerHeap) Pop() interface{} {
 	return x1
 }
 
-func main() {
+func HeapFunction() {
 	var intHeap *IntegerHeap = &IntegerHeap{1, 4, 5}
 
 	heap.Init(intHeap)
