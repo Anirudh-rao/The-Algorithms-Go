@@ -55,3 +55,12 @@ The adapter pattern comprises the target, adaptee, adapter and client:
 2. `Client` wants the incompatible inteface implementd by the adapter.
 
 3. `adapter` translated the incompatible ingerfaced of the dataptee into a interface that the cleitn wants.
+
+
+### Bridge
+
+Bridge decouples the implementation from the abstraction. The abstract base class be subclassed to provide different implenetations and allow implementation details to be modified easily. The interface which is a bridge helps in making the functionality of concrete classes independent from the interface implementer classes. The bridge patterns allow the implementation details to change at runtime.
+
+
+### Composite
+
